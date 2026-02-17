@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Entities\Creation; // Import de l'entité
+use App\Entities\Creation; // ECF4 Import de l'entité pour correction erreur localhost
 
 class HomeController extends Controller
 {

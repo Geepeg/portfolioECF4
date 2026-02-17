@@ -1,14 +1,14 @@
-# PHP Apache
+# ECF4 PHP Apache
 FROM php:8.2-apache
 
-# Module rewrite MVC
+# ECF4 Module rewrite MVC
 RUN a2enmod rewrite
 
-# Dossier de travail
+# ECF4 Dossier de travail
 WORKDIR /var/www/html
 
-# Copie de l'app
+# ECF4 Copie de l'app
 COPY . /var/www/html/
 
-# Exposer le port 80
+# ECF4 Exposer le port 80
 EXPOSE 80

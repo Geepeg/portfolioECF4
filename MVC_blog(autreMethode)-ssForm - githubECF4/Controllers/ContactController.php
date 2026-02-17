@@ -2,13 +2,13 @@
 
 namespace App\Controllers;
 
-// Controller contact
+// ECF4 Controller contact
 class ContactController extends Controller
 {
-    // Méthode
+    // ECF4 Méthode
     public function index()
     {
-        // Affichage
+        // ECF4 Affichage de la vue
         $this->render('contact/index');
     }
 }
