@@ -31,7 +31,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="index.php?controller=creation&action=index">Mes créations</a>
                         </li>
-                        <!-- AJOUT NAV CONTACT -->
+                        <!-- ECF4 AJOUT NAV CONTACT -->
                         <li class="nav-item">
                             <a class="nav-link" href="index.php?controller=contact&action=index">Contact</a>
                         </li>
