@@ -1,9 +1,14 @@
+# ECF4 Ficher docker-compose pour orchestrer l'app
 version: "3.8"
 
 services:
+  # ECF4 Service web PHP / Apache
   web:
+    # ECF4 Construction de l'image
     build:
       context: .
+    # ECF4 Nom du conteneur
     container_name: portfolio_ecf4
+    # ECF4 Ajout du port
     ports:
       - "8080:80"
