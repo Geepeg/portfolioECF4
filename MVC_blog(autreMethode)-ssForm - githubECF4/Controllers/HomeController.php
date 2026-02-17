@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Entities\Creation; // Import de l'entité
+
 class HomeController extends Controller
 {
 
