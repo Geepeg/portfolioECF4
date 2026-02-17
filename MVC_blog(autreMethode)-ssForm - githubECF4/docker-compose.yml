@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  web:
+    build:
+      context: .
+    container_name: portfolio_ecf4
+    ports:
+      - "8080:80"
